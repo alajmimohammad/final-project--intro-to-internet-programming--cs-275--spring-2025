@@ -8,11 +8,7 @@
 
 ## ❖・Introduction・❖
 
-The basic rules and requirements for this final project are available in the 8-minute video found at [https://roy.vanegas.org/video/cs-275--final-project-instructions.mp4](https://roy.vanegas.org/video/cs-275--final-project-instructions.mp4).
-
-Recall that all your work must be carried out in the `app` folder.
-
-Inspect the `.gitignore` file so you can re-acclimate yourself to the scaffold requirements for this assignments. **DO NOT EDIT IT.**
+The basic rules and requirements for this final project are available in the 8-minute video found at [https://roy.vanegas.org/video/cs-275--final-project-instructions.mp4](https://roy.vanegas.org/video/cs-275--final-project-instructions.mp4). Read on for more detailed rules.
 
 ---
 
@@ -26,6 +22,7 @@ Before you begin, **update Node, NPM, ESLint, and Stylelint**
 * Author your code according to the included `.editorconfig` rules. (**Do not alter**.)
 * Validate/lint JavaScript according to the included `.eslintrc` rules. (**Do not alter**.)
 * Validate/lint CSS according to the included `.stylelintrc.json` rules. (**Do not alter**.)
+* Inspect the `.gitignore` file so you can better understand the scaffold requirements for this assignment.
 
 ### HTML
 
@@ -63,6 +60,7 @@ Before you begin, **update Node, NPM, ESLint, and Stylelint**
 ### Task Running with Gulp
 
 * You must employ Gulp, **version 5**, as the task runner, with workflows for development and production. **Only include the tasks requested below.**
+* `gulpfile.js`, `package.json`, and `package-lock.json` must go in the root of this repository.
 * You must develop the following tasks, each of which is self-explanatory: `validateHTML`, `validateCSS`, `validateJS`, `compressHTML`, `compressCSS`, `compressJS`, `transpileJSForDev`, `transpileJSForProd`.
 
 #### Development
