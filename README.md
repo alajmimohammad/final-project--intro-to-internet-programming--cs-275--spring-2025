@@ -6,6 +6,81 @@
 
 ---
 
+## ❖・Introduction・❖
+
+The basic rules and requirements for this final project are available in the 8-minute video found at [https://roy.vanegas.org/video/cs-275--final-project-instructions.mp4](https://roy.vanegas.org/video/cs-275--final-project-instructions.mp4).
+
+Recall that all your work must be carried out in the `app` folder.
+
+Inspect the `.gitignore` file so you can re-acclimate yourself to the scaffold requirements for this assignments. **DO NOT EDIT IT.**
+
+---
+
+## ❖・Rules・❖
+
+Before you begin, **update Node, NPM, ESLint, and Stylelint**
+
+### General
+
+* There should not be any scroll bars on the page, either horizontal or vertical.
+* Author your code according to the included `.editorconfig` rules. (**Do not alter**.)
+* Validate/lint JavaScript according to the included `.eslintrc` rules. (**Do not alter**.)
+* Validate/lint CSS according to the included `.stylelintrc.json` rules. (**Do not alter**.)
+
+### HTML
+
+* Include the following minimal HTML required for this project in `app/index.html`:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sliding Diamond</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="diamond-container"></div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
+```
+
+### CSS
+
+* You’re free to style this as you wish.
+* All CSS *must* go in `app/css/style.css`.
+
+### JavaScript
+
+* All DOM manipulations *must* take place via JavaScript.
+* All JavaScript *must* go in `app/js/app.js`.
+* Your code should not generate any ESLint errors, except warnings for line lengths.
+* Use backticks exclusively for all strings and variable interpolation.
+* Avoid function hoisting; use *only* arrow functions.
+* Avoid variable hoisting; use *only* `let` declarations.
+
+### Task Running with Gulp
+
+* You must employ Gulp, **version 5**, as the task runner, with workflows for development and production. **Only include the tasks requested below.**
+* You must develop the following tasks, each of which is self-explanatory: `validateHTML`, `validateCSS`, `validateJS`, `compressHTML`, `compressCSS`, `compressJS`, `transpileJSForDev`, `transpileJSForProd`.
+
+#### Development
+
+* Your CSS must validate using the enclosed `.stylelintrc.json` file.
+* Your JavaScript must validate using the included `.eslintrc.json` file.
+* Your JavaScript must transpile to ES5.
+* The development, or dev, track must validate HTML, CSS and JavaScript each time you save a `.html`, `.css`, or `.js` file.
+* Additionally, the development track must also refresh the browser when any of the aforementioned files have changed.
+* `gulp` triggers the dev track.
+
+#### Production
+
+* The production, or prod, track must compress all the aforementioned languages. *Do not lint them*, as they will have already been linted in the development track.
+* `gulp build` should load the entire production environment into a folder called `prod`, which must be fully self-sufficient and contain all the required files — compressed and linted — for the web page. **Note**: Check that your entire project works as a standalone web app in the `prod` folder. You can do so by moving the `prod` folder elsewhere in your file system before submitting, then launching `index.html`.
+
+---
+
 ## ❖・Due・❖
 
 Tuesday, 6 May 2025, at 1:30 PM.
