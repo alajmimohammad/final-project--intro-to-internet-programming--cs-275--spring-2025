@@ -45,7 +45,7 @@ Before you begin, **update Node, NPM, ESLint, and Stylelint**
 
 ### CSS
 
-* You’re free to style this as you wish.
+* You’re free to style this as you wish, as long as the shape of the diamond approximates the rendering in the video discussed earlier.
 * All CSS *must* go in `app/css/style.css`.
 
 ### JavaScript
