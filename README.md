@@ -1,4 +1,4 @@
-# Spring 2025 Intro to Internet Programming — Assignment 3
+# Spring 2025 Intro to Internet Programming — Final Project
 
 ☞ **Plagiarism in any form will result in failing the entire course. You’ve been duly warned.** ☜
 
