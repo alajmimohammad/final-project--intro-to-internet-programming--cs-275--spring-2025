@@ -1,0 +1,20 @@
+body {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+
+#diamond-container {
+  margin: 0;
+  padding: 10px;
+}
+
+pre {
+  margin: 0;
+  padding: 10px;
+  border: 1px solid black;
+  font-family: monospace;
+  display: inline-block;
+  font-size: 8px; /* scale control */
+  line-height: 1;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "final_project",
+  "version": "1.0.0",
+  "description": "Sliding Diamond Final Project - CS275 Spring 2025",
+  "main": "app/js/app.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build"
+  },
+  "keywords": [],
+  "author": "Mohammad Alajmi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0",
+    "eslint": "^8.57.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-stylelint": "^13.0.0",
+    "gulp-terser": "^2.1.0",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^35.0.0"
+  }
+}
